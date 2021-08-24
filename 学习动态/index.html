@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>抗疫事迹</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    
+    <script src="http://api.map.baidu.com/api?v=2.0&ak=G8wInAMReGu4hWrcXc7zMecW6e5YUS92"></script>
+    <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="./script/jquery.bootstrap.newsbox.min.js"></script>
+    
+    <link rel="stylesheet" href="css/site.css"/>
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+    
+    
+    <script>
+      $(function () {
+        $(".demo").bootstrapNews({
+          newsPerPage: 12,
+          autoplay: true,
+          pauseOnHover: true,
+          navigation: false,
+          direction: 'up',
+          newsTickerInterval: 2000,
+        });
+      });
+    </script>
+    
+  </head>
+  <body>
+    <img src="../images/banner.jpg" width="100%" height="92px">
+    <div style="display: flex;">
+      <div class="container" style="margin-top: 20px;">
+          <div class="row">
+            <div class="col-md-4">
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <b>内容概览</b>
+                </div>
+                <div class="panel-body">
+                  <div class="row">
+                    <div class="col-xs-12">
+                      <ul class="demo">
+                        <li class="news-item">
+                          <table cellpadding="4">
+                            <td>&nbsp;&nbsp;&nbsp;<a
+                              href="http://chuxin.people.cn/n1/2019/1108/c428144-31445807.html"
+                              >厦门大学以调查研究为抓手 破解为民服务难题</a>
+                            </td>
+                          </table>
+                        </li>
+                        <li class="news-item">
+                          <table cellpadding="4">
+                            <tr>
+                              <td>&nbsp;&nbsp;&nbsp;<a
+                                href="http://chuxin.people.cn/n1/2019/1108/c428144-31445799.html"
+                                >陕西省商南县：以脱贫攻坚成果体现主题教育成效</a>
+                              </td>
+                            </tr>
+                          </table>
+                        </li>
+                        <li class="news-item">
+                          <table cellpadding="4">
+                            <tr>
+                              <td>&nbsp;&nbsp;&nbsp;<a
+                                href="http://chuxin.people.cn/n1/2019/1108/c428144-31445770.html"
+                                >山东：统筹联动整改，解决实际问题</a>
+                              </td>
+                            </tr>
+                          </table>
+                        </li>
+                        <li class="news-item">
+                          <table cellpadding="4">
+                            <tr>
+                              <td>&nbsp;&nbsp;&nbsp;<a
+                                href="http://chuxin.people.cn/n1/2019/1108/c428144-31445715.html"
+                                >于伟国主持召开福建省委“不忘初心、牢记使命”主题教育领导小组会议</a>
+                              </td>
+                            </tr>
+                          </table>
+                        </li>
+                        <li class="news-item">
+                          <table cellpadding="4">
+                            <tr>
+                              <td>&nbsp;&nbsp;&nbsp;<a
+                                href="http://chuxin.people.cn/n1/2019/1108/c428144-31445596.html"
+                                >浙江嘉兴9张清单抓实主题教育</a>
+                              </td>
+                            </tr>
+                          </table>
+                        </li>
+                        <li class="news-item">
+                          <table cellpadding="4">
+                            <tr>
+                              <td>&nbsp;&nbsp;&nbsp;<a
+                                href="http://chuxin.people.cn/n1/2019/1108/c428144-31445529.html"
+                                >江苏省连云港市“开门搞教育”正视差距查找不足</a>
+                              </td>
+                            </tr>
+                          </table>
+                        </li>
+                        <li class="news-item">
+                          <table cellpadding="4">
+                            <tr>
+                              <td>&nbsp;&nbsp;&nbsp;<a
+                                href="http://chuxin.people.cn/n1/2019/1108/c428144-31445307.html"
+                                >吉林省委省政府召开县市双周四晚重点工作调度和工作交流例会 巴音朝鲁主持</a>
+                              </td>
+                            </tr>
+                          </table>
+                        </li>
+                        <li class="news-item">
+                          <table cellpadding="4">
+                            <tr>
+                              <td>&nbsp;&nbsp;&nbsp;<a
+                                href="http://chuxin.people.cn/n1/2019/1108/c428144-31445256.html"
+                                >贵州仁怀着力推动非公企业主题教育走深走实</a>
+                              </td>
+                            </tr>
+                          </table>
+                        </li>
+                        <li class="news-item">
+                          <table cellpadding="4">
+                            <tr>
+                              <td>&nbsp;&nbsp;&nbsp;<a
+                                href="http://chuxin.people.cn/n1/2019/1108/c428144-31445237.html"
+                                >中储粮集团公司党组班子成员深入基层指导第二批主题教育</a>
+                              </td>
+                            </tr>
+                          </table>
+                        </li>
+                        <li class="news-item">
+                          <table cellpadding="4">
+                            <tr>
+                              <td>&nbsp;&nbsp;&nbsp;<a
+                                href="http://chuxin.people.cn/n1/2019/1108/c428144-31445235.html"
+                                >黑龙江省双鸭山市推行“无假日社区”错时工作</a>
+                              </td>
+                            </tr>
+                          </table>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      <div id="main" style="width:1500px;height:950px;margin-left: -750px;margin-top: 20px;"></div>
+    </div>
+    <script src="./script/map.js"></script>
+  </body>
+</html>
