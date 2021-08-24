@@ -1,9 +1,4 @@
-﻿
-
-
-
 (function () {
-	
     require.config({
         paths: {
             echarts: 'echarts'
@@ -16,7 +11,6 @@
             }
         ]
     });
-
     require(
     [
         'echarts',
@@ -40,7 +34,6 @@
             x: 116.412979,
             y: 39.933368
         };
-
         var point = new BMap.Point(startPoint.x, startPoint.y);
         map.centerAndZoom(point, 4);
         map.enableScrollWheelZoom(true);
@@ -177,7 +170,6 @@
                   }
             ]
         });
-
         option = {
             color: ['gold','aqua','lime'],
             title : {
@@ -223,8 +215,6 @@
                     dataView : {show: true, 
 					readOnly: true,
 					optionToContent:function aa(){
-						
-								 
 								var table = '<table  class="table table-condensed "   width=100%  ><tr  id="tr"   >'
                                  +'<td  id=“td” align=middle>' + '届数' + '</td>'
 								 +'<td id=“td” align="center" >' + '时间' + '</td>'
@@ -361,21 +351,9 @@
 							
 								 
 								 '+</table>'
-								 
-					
-								 
-								 
-								 
-								 
-								 
-							
-							
-								
-								 
+
 								return table;
 						}
-					
-						
 					},
                    
                 }
@@ -517,7 +495,6 @@
                         '韶关': [113.7964,24.7028],
                         '莫斯科':[37.847898,55.883561]
                     },
-
                     markLine : {
                         smooth:true,
                         effect : {
